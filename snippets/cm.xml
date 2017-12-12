@@ -127,7 +127,7 @@
 
   <project path="vendor/honor/berlin" name="Jos635/android_vendor_honor_berlin" remote="github" revision="7.x" />
   <project path="device/honor/berlin" name="Jos635/android_device_honor_berlin" remote="github" revision="7.x" />
-  <project path="kernel/honor/berlin" name="OpenKirin/android_kernel_honor_berlin" remote="github" revision="7.x" />
+  <project path="kernel/honor/berlin" name="Jos635/android_kernel_honor_berlin" remote="github" revision="7.x" />
 
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" />
   <remote name="fdroid" fetch="https://gitlab.com/fdroid/" />
