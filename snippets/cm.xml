@@ -105,7 +105,7 @@
   <project path="vendor/qcom/opensource/dataservices" name="LineageOS/android_vendor_qcom_opensource_dataservices" />
   <project path="vendor/qcom/opensource/dpm" name="LineageOS/android_vendor_qcom_opensource_dpm" />
   <project path="vendor/qcom/opensource/time-services" name="LineageOS/android_vendor_qcom_opensource_time-services" />
-
+  
   <!-- Infrastructure -->
   <project path="lineage/ansible" name="LineageOS/ansible" groups="infra" revision="master" />
   <project path="lineage/crowdin" name="LineageOS/cm_crowdin" groups="infra" revision="master" />
@@ -119,4 +119,14 @@
   <!-- Tools -->
   <project path="lineage/contributors-cloud-generator" name="LineageOS/contributors-cloud-generator" groups="tools" revision="master" />
   <project path="lineage/scripts" name="LineageOS/scripts" groups="tools" revision="master" />
+
+  <project path="vendor/honor/berlin" name="Jos635/android_vendor_honor_berlin" remote="github" revision="7.x" />
+  <project path="device/honor/berlin" name="Jos635/android_device_honor_berlin" remote="github" revision="7.x" />
+  <project path="kernel/honor/berlin" name="Jos635/android_kernel_honor_berlin" remote="github" revision="7.x" />
+
+  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" />
+  <remote name="fdroid" fetch="https://gitlab.com/fdroid/" />
+  <project path="packages/apps/FDroidPrivilegedExtension" name="privileged-extension.git" remote="fdroid" revision="refs/tags/0.2.7" />
+
+  <project path="buildscripts" name="Jos635/android_buildscripts" remote="github" revision="cm-14.1" />
 </manifest>
